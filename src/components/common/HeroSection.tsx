@@ -18,7 +18,7 @@ const HeroSection = () => {
             <div className="flex flex-col justify-center items-center w-full px-4 xl:max-w-5xl mx-auto flex-grow">
 
                 <div className="bg-[#171717] rounded-full py-2 px-4">
-                    <h4 className="font-normal font-geist-regular text-white text-sm sm:text-base">
+                    <h4 className="font-normal font-geist-regular text-center text-white text-[10px] sm:text-base w-full">
                         Tessa resolves 80% of support enquiries without an human agent
                     </h4>
                 </div>
@@ -28,8 +28,8 @@ const HeroSection = () => {
                         <span className="text-gold1">AI-powered</span> support agent, delivering 24/7 efficiency
                     </h1>
 
-                    <p className="text-sm sm:text-base w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
-                        Improve your existing support systems with Tessa's AI capabilities,
+                    <p className="text-xs sm:text-base w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
+                        Improve your existing support systems with Tessa&apos;s AI capabilities,
                         delivering human-like customer support services.
                     </p>
 
