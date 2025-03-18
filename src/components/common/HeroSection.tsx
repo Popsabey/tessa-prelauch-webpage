@@ -17,8 +17,7 @@ const HeroSection = () => {
                 className="w-full max-w-[1200px] absolute top-0 left-1/2 transform -translate-x-1/2 xl:translate-x-0 xl:left-[400px] lg:left-[350px]"
             />
 
-            <div className="flex flex-col justify-center items-center w-full px-4 xl:max-w-5xl mx-auto flex-grow">
-
+            <div className="flex flex-col justify-center items-center w-full px-4 xl:max-w-5xl mx-auto flex-grow mt-10 md:mt-16 lg:mt-20">
                 <div className="bg-[#171717] rounded-full py-2 px-4">
                     <h4 className="font-normal font-geist-regular text-center text-white text-[10px] sm:text-base w-full">
                         Tessa resolves 80% of support enquiries without a human agent
@@ -50,11 +49,11 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
-                <h3 className="font-geist-medium text-base sm:text-lg font-semibold leading-6 sm:leading-7 text-center text-white/80">
+            <div className="flex flex-col gap-2 sm:gap-4 justify-center items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-6 sm:py-8">
+                <h3 className="font-geist-regular text-base sm:text-base leading-6 sm:leading-7 text-center text-white/60">
                     Smart teams trust Tessa
                 </h3>
-                <p className="text-white text-center text-sm sm:text-base font-light">
+                <p className="text-white/90 text-center text-base sm:text-base font-semibold">
                     Why spend so much on support when you can automate it to increase efficiency with reduced cost
                 </p>
             </div>
