@@ -51,17 +51,12 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col gap-4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
-                <h3 className="font-geist-medium text-sm sm:text-lg leading-6 sm:leading-7 text-center text-white/40">
+                <h3 className="font-geist-medium text-base sm:text-lg font-semibold leading-6 sm:leading-7 text-center text-white/80">
                     Smart teams trust Tessa
                 </h3>
-                <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-12">
-                    <Image src={images.image.rebank} alt="Rebank" className="w-16 sm:w-20 h-auto" />
-                    <Image src={images.image.packfleet} alt="Packfleet" className="w-16 sm:w-20 h-auto" />
-                    <Image src={images.image.cable} alt="Cable" className="w-16 sm:w-20 h-auto" />
-                    <Image src={images.image.hypermile} alt="Hypermile" className="w-16 sm:w-20 h-auto" />
-                    <Image src={images.image.citationsy} alt="Citationsy" className="w-16 sm:w-20 h-auto" />
-                    <Image src={images.image.miminum} alt="Minimum" className="w-16 sm:w-20 h-auto" />
-                </div>
+                <p className="text-white text-center text-sm sm:text-base font-light">
+                    Why spend so much on support when you can automate it to increase efficiency with reduced cost
+                </p>
             </div>
         </section>
     );
