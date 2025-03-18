@@ -1,3 +1,4 @@
+
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -14,6 +15,9 @@ const WhatOurCustSays = () => {
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={20}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
                     }}
                     breakpoints={{
                         640: {
@@ -24,7 +28,10 @@ const WhatOurCustSays = () => {
                             slidesPerView: 2,
                             spaceBetween: 30,
                         },
-                      
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
                     }}
                     modules={[Autoplay]}
                     className="mySwiper"
