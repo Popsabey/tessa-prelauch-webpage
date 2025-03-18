@@ -38,11 +38,11 @@ const HeroSection = () => {
 
                     <div className="flex flex-col sm:flex-row gap-2.5 mx-auto">
                         <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} 
-                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[50px] md:w-[340px] lg:h-[52px] lg:w-[350px] z-20 bg-btnBlue rounded-sm text-white text-sm sm:text-base flex items-center justify-center">
+                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[48px] md:w-[300px] lg:h-[48px] lg:w-[310px] z-20 bg-btnBlue rounded-sm text-white text-sm sm:text-base flex items-center justify-center">
                             Pre-subscribe (60% discount)
                         </Link>
                         <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} 
-                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[50px] md:w-[340px] lg:h-[52px] lg:w-[350px] z-20 cursor-pointer bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base flex items-center justify-center">
+                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[48px] md:w-[300px] lg:h-[48px] lg:w-[310px] z-20 cursor-pointer bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base flex items-center justify-center">
                             Know when we public-launch
                         </Link>
                     </div>
