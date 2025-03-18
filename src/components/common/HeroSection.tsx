@@ -28,18 +28,16 @@ const HeroSection = () => {
                         <span className="text-gold1">AI-powered</span> support agent, delivering 24/7 efficiency
                     </h1>
 
-                    <p className="text-sm sm:text-base w-[280px] sm:w-[340px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
+                    <p className="text-sm sm:text-base w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
                         Improve your existing support systems with Tessa&apos;s AI capabilities,
                         delivering human-like customer support services.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-2.5 mx-auto">
-                        <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} 
-                              className="h-12 w-[340px] sm:h-[48px] sm:w-[340px] flex items-center justify-center bg-btnBlue rounded-sm text-white text-sm sm:text-base">
+                        <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} className="py-2 z-20 px-5 sm:py-3 sm:px-6 bg-btnBlue rounded-sm text-white text-sm sm:text-base">
                             Pre-subscribe (60% discount)
                         </Link>
-                        <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} 
-                              className="h-12 w-[340px] sm:h-[48px] sm:w-[340px] flex items-center justify-center bg-transparent border border-white text-white rounded-sm text-sm sm:text-base">
+                        <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} className=" z-20 cursor-pointer py-2 px-5 sm:py-3 sm:px-6 bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base">
                             Know when we public-launch
                         </Link>
                     </div>
@@ -47,7 +45,7 @@ const HeroSection = () => {
 
             </div>
 
-            <div className="flex flex-col gap-4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
+            <div className="flex flex-col gap-a4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
                 <h3 className="font-geist-medium text-sm sm:text-lg leading-6 sm:leading-7 text-center text-white/40">
                     Smart teams trust Tessa
                 </h3>
