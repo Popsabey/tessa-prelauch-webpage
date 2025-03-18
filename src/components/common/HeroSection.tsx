@@ -26,8 +26,10 @@ const HeroSection = () => {
                 </div>
 
                 <div className="w-full max-w-[690px] flex flex-col gap-4 sm:gap-7 mt-6">
-                    <h1 className="font-geist-regular font-normal text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-tight sm:leading-[67.2px] text-white text-center">
-                        <span className="text-gold1">AI-powered</span> support agent, delivering 24/7 efficiency
+                    <h1 className="font-geist-regular font-bold sm:font-normal text-3xl sm:text-4xl md:text-5xl lg:text-[56px] leading-tight sm:leading-[67.2px] text-white text-center">
+                        <span className="text-gold1">AI-powered</span> support<br />
+                        agent, delivering<br />
+                        24/7 efficiency
                     </h1>
 
                     <p className="text-sm sm:text-base w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
