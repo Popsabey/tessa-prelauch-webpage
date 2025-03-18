@@ -2,12 +2,12 @@
 
 const WhatOurCustSays = () => {
     return (
-        <div className="w-full bg-black justify-center items-center flex flex-col gap-14 lg:my-24 mt-10 py-10">
+        <div className="w-full bg-black justify-center items-center flex flex-col gap-14 lg:my-24 mt-10 py-10 px-4 sm:px-5 md:px-20 lg:px-48">
             <h1 className="font-normal xl:text-4xl lg:text-3xl md:text-3xl text-xl font-geist-medieum mx-auto text-white text-center">
                 What our customers have to say
             </h1>
 
-            <div className="w-full px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[...Array(3)].map((_, index) => (
                     <div key={index} className="flex flex-col justify-start items-start py-10 px-8 gap-6 bg-[#171717] rounded-2xl">
                         <p className="font-medium font-geist-medieum text-sm text-[#FFFFFF]">
@@ -16,7 +16,7 @@ const WhatOurCustSays = () => {
                         <div className="flex-row flex gap-3 justify-center items-center">
                             <div className="w-14 h-14 rounded-full bg-gray-500/20"></div>
                             <div className="flex flex-col gap-0.5">
-                                <h4 className="font-medium font-geist-medieum text-[16px] text-[#FFFFFF]">Tobi Emmanuel</h4>
+                                <h4 className="font-medium font-geist-medieum text-[16px] text-[#FFFFFF]">Manuel Carlos</h4>
                                 <p className="text-xs font-normal font-geist-regular text-[#FFFFFF]">Owner at <span className="text-[#FFA287]">Colorprinter</span></p>
                             </div>
                         </div>
