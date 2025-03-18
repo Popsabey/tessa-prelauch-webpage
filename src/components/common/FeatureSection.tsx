@@ -16,7 +16,7 @@ const FeatureSection = () => {
                             responds like you
                         </h2>
                         <p className="text-base sm:text-lg text-[#A1A1A1] font-geist-regular leading-relaxed">
-                            AI-Gent adopts your communication style, tone & language when responding to enquiries
+                            Tessa adopts your communication style, tone & language when responding to enquiries
                         </p>
                     </div>
                     <div className="w-full lg:w-7/12 flex justify-center lg:justify-end">
@@ -46,7 +46,7 @@ const FeatureSection = () => {
                             Available for your primary support channels
                         </h2>
                         <p className="text-base sm:text-lg text-[#A1A1A1] font-geist-regular leading-relaxed">
-                            AI-Gent adopts your communication style, tone & language when responding to enquiries
+                            Tessa works well with your pre-existing customer support systems to deliver the right support for your customers
                         </p>
                     </div>
                 </div>
