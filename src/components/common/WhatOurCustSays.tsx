@@ -7,9 +7,9 @@ const WhatOurCustSays = () => {
                 What our customers have to say
             </h1>
 
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="w-full overflow-x-auto flex gap-6 md:grid md:grid-cols-2 lg:grid-cols-3">
                 {[...Array(3)].map((_, index) => (
-                    <div key={index} className="flex flex-col justify-start items-start py-10 px-8 gap-6 bg-[#171717] rounded-2xl">
+                    <div key={index} className="flex-shrink-0 w-80 flex flex-col justify-start items-start py-10 px-8 gap-6 bg-[#171717] rounded-2xl">
                         <p className="font-medium font-geist-medieum text-sm text-[#FFFFFF]">
                             Customer support is something we take quite seriously at Colorprinter, and we get plenty of these texts from our socials and email. AI-Gent is a lifesaver for us—very adequate and for a quarter of the price a person performing similar roles will take. <br /> <br />Highly recommended.
                         </p>
