@@ -1,3 +1,5 @@
+"use client"
+
 import { images } from "@/constants/images";
 import NavBar from "./NavBar";
 import Image from "next/image";
@@ -34,18 +36,19 @@ const HeroSection = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-2.5 mx-auto">
-                        <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} className="py-2 z-20 px-5 sm:py-3 sm:px-6 bg-btnBlue rounded-sm text-white text-sm sm:text-base">
+                        <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} 
+                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[50px] md:w-[340px] lg:h-[52px] lg:w-[350px] z-20 bg-btnBlue rounded-sm text-white text-sm sm:text-base flex items-center justify-center">
                             Pre-subscribe (60% discount)
                         </Link>
-                        <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} className=" z-20 cursor-pointer py-2 px-5 sm:py-3 sm:px-6 bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base">
+                        <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} 
+                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[50px] md:w-[340px] lg:h-[52px] lg:w-[350px] z-20 cursor-pointer bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base flex items-center justify-center">
                             Know when we public-launch
                         </Link>
                     </div>
                 </div>
-
             </div>
 
-            <div className="flex flex-col gap-a4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
+            <div className="flex flex-col gap-4 sm:gap-8 justify-between items-center mx-auto w-full max-w-[90%] sm:max-w-[80%] py-8 sm:py-10">
                 <h3 className="font-geist-medium text-sm sm:text-lg leading-6 sm:leading-7 text-center text-white/40">
                     Smart teams trust Tessa
                 </h3>
