@@ -11,8 +11,8 @@ const LikeAPro = () => {
                     </h2>
 
                     <p className="text-sm md:text-base text-zinc-400 text-center max-w-xl">
-                        Integrate the most advanced customer support agent into business in minutes,
-                        automate responses with a round the clock coverage, saving you time & money.
+                        Integrate the most advanced customer support agent into your business/product, 
+                        automate responses with a 24hrs coverage, saving you time & money.
                     </p>
 
                     <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} className="py-2 z-20 px-6 sm:py-3 sm:px-7 bg-btnBlue rounded-sm text-white text-sm sm:text-base">
