@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tessa Ai",
-  description: "Tessa Support you all in one customer support",
+  title: "Tessa | Customer Support Agent",
+  description: "Automate more than 80% of your support enquires",
 };
 
 export default function RootLayout({
