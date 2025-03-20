@@ -33,7 +33,7 @@ const HeroSection = () => {
 
                     <p className="text-sm sm:text-base w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
                         Improve your existing support systems li with Tessa&apos;s AI capabilities,
-                        Tessa works with tools like Intercom to deliver human-like customer support.
+                        Tessa works with tools like Intercom to deliver human-like services.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-2.5 mx-auto">
