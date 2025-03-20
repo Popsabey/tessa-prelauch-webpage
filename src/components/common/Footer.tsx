@@ -13,7 +13,7 @@ const Footer = () => {
                 </a>
             </div>
             <div
-                className=" flex flex-col"> <p className=" text-[#747474] font-geist-medieum text-sm text-center">Tessa is a product of CruseTech Solutions</p>
+                className=" flex flex-col"> <p className=" text-[#747474] font-geist-medieum text-sm text-center">Tessa is a product of CruseTech Solutions Ltd.</p>
                 <p className="text-xs md:text-sm lg:text-base text-[#747474]">
                     Copyright © Team Tessa  2025
                 </p></div>
