@@ -41,10 +41,6 @@ const HeroSection = () => {
                               className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[48px] md:w-[300px] lg:h-[48px] lg:w-[310px] z-20 bg-btnBlue rounded-sm text-white text-sm sm:text-base flex items-center justify-center">
                             Pre-subscribe (60% discount)
                         </Link>
-                        <Link href={"https://forms.gle/qqLkBuZXX8PZTZiTA"} 
-                              className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[48px] md:w-[300px] lg:h-[48px] lg:w-[310px] z-20 cursor-pointer bg-transparent border border-white/50 text-white rounded-sm text-sm sm:text-base flex items-center justify-center">
-                            Know when we public-launch
-                        </Link>
                     </div>
                 </div>
             </div>
