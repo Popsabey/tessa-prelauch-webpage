@@ -24,7 +24,7 @@ const KnowledgeBased = () => {
         },
         {
             question: "Is there any money-back guaranty?",
-            answer: "We offer a risk-free prelaunch guaranty, early adopters will receive personalized onboarding, premium support, and a flexible opt-out option if Tessa isn’t suitable."
+            answer: "We offer a risk-free guaranty, early adopters will receive personalized onboarding, premium support, and a flexible opt-out option if Tessa isn’t suitable."
         }
 
     ];
