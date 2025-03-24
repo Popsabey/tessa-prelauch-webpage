@@ -33,13 +33,13 @@ const HeroSection = () => {
 
                     <p className="text-sm sm:text-base w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px] font-light font-geist-regular leading-relaxed text-center text-white mx-auto">
                         Improve your existing support systems with Tessa&apos;s AI capabilities,
-                        works with tools like Intercom to deliver human-like services.
+                        customer support round the clock.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-2.5 mx-auto">
                         <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdNBeitJRZsqzcreqwKVmll6ydZNOjZ0pVJa1M5-f1fgC0VTw/viewform"} 
                               className="h-[48px] w-[332px] sm:h-[48px] sm:w-[332px] md:h-[48px] md:w-[300px] lg:h-[48px] lg:w-[310px] z-20 bg-btnBlue rounded-sm text-white text-sm sm:text-base flex items-center justify-center">
-                            Pre-subscribe (60% discount)
+                            Save your spot now
                         </Link>
                     </div>
                 </div>
